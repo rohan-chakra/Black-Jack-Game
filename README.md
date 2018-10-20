@@ -1,15 +1,20 @@
 # Black-Jack-Game
+# What is Black-Jack/21?
+Blackjack, also known as twenty-one, is a comparing card game between usually several players and a dealer, where each player in turn competes against the dealer, but players do not play against each other. It is played with one or more decks of 52 cards, and is the most widely played casino banking game in the world. 
 
-The object of the game is to create a hand with a value that is equal to or closer to 21 than the dealer’s hand
-Number cards count as face value (2-10), Aces count as either 1 or 11, and Kings, Queens and Jacks count as 10
-The dealer receives two cards, as does the player. All player cards are dealt face up, while only a single one of the dealer’s cards is.
-Players can then hit or stand, with the former providing an extra card and the latter holding the cards at their current value.
+# Objective
+The objective of the game is to beat the dealer in one of the following ways:
+  1. Get 21 points on the player's first two cards (called a "blackjack" or "natural"), without a dealer blackjack;
+  2. Reach a final score higher than the dealer without exceeding 21; or
+  3. Let the dealer draw additional cards until their hand exceeds 21.
 
-# Other Important Rules
-However, as with all games, there are certain other rules that players should be aware of to give themselves a better opportunity at beating the house. These extra pieces of information are sometimes the turning point between a win and a loss.
+# Rules
+1. Players are each dealt two cards, face up. The dealer is also dealt two cards, one up (exposed) and one down (hidden).
+2. The values of cards two through ten are their normal value (2 through 10). Face cards (Jack, Queen, and King) are all worth ten. Aces can be worth one or eleven. 
+3. A hand's value is the sum of the card values. Players are allowed to draw additional cards to improve their hands.
+4. Player makes a choice to 'Hit' or 'Stand'. To 'Hit', means to draw an additional card to improve their hand or get closer to 21. To 'Stand' means to stick with the cards that they currently have and not take anymore.
+5. A hand with an ace valued as 11 is called "soft", meaning that the hand will not bust by taking an additional card; the value of the ace will become one to prevent the hand from exceeding 21. Otherwise, the hand is called "hard".
 
-Casino Blackjack Hints & Tips
-Always remember to stand your hand when you have a hard hand with a value of 17-21, or a soft hand equaling 19-21. Being dealt a pair of Ace cards should result in a split option.
-
-If you have a pair of fives and the dealer is showing any card between a 2 to a 9, use the double option. Meanwhile, if he has a 10 or Ace, be sure to Hit your hand.
+# How the game plays out
+Once all the players have completed their hands, it is the dealer’s turn. The dealer hand will not be completed if all players have either busted or received blackjacks. The dealer then reveals the hidden card and must hit until the cards total 17 or more points. (At most tables the dealer also hits on a "soft" 17, i.e. a hand containing an ace and one or more other cards totaling six.) Players win by not busting and having a total higher than the dealer, or not busting and having the dealer bust, or getting a blackjack without the dealer getting a blackjack. If the player and dealer have the same total (not counting blackjacks), this is called a "push", and the player typically does not win or lose money on that hand. Otherwise, the dealer wins.
 
